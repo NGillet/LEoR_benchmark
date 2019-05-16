@@ -12,6 +12,13 @@ The memory management is set in lightcone_functions.py -> DataGenerator -> self.
 The code as been runing on :
 
 - Nefertem : CPU - 
-- Thanatos : GPU - Titan V : 360s / epoch
+
+- Thanatos : GPU - Titan V
+    - load data time : ~42s/8000LC
+    - epoch : 645s / epoch
+    
 - PizDaint : GPU - Tesla P100 : 720s / epoch
+
 - DELL test machine : GPU - Tesla P100 : 140s / epoch
+    - load data time : ~6s/8000LC , one load for the whole : 1min/80000LC
+    - epoch : 140s / epoch
