@@ -12,30 +12,35 @@ The memory management is set in lightcone_functions.py -> DataGenerator -> self.
 The code as been runing on :
 
 - Nefertem : CPU 
-    - load data time : 
-        - data loaded from Amphora
+    - load data timing : 
+        - data loaded from Amphora (through network?)
         - low memory mode : ...
         - large memory mode : 18min / 80000LC
-    - epoch : 
-            - low memory mode : ...
-            - large memory mode : ...
+    - epoch timing : 
+        - low memory mode : ...
+        - large memory mode : ~90min / epoch
 
 - Thanatos : GPU - Titan V
-    - load data time : 
-        - data loaded from the local hardrive
-        - low memory mode : ~42s/8000LC 
-    - epoch : 
+    - load data timing : 
+        - data loaded from the computer hardrive
+        - low memory mode : ~42s / 8000LC 
+    - epoch timing : 
         - low memory mode : 645s / epoch
     
-- PizDaint : GPU - Tesla P100 : 720s / epoch
+- PizDaint : GPU - Tesla P100
+    - load data timing : 
+        - data loaded from the SCRATCH repo
+        - low memory mode : ... (I do not remember...)
+    - epoch timing : 
+        - low memory mode : 720s / epoch
 
-- DELL test machine : GPU - Tesla P100 : 140s / epoch
-    - load data time : 
+- DELL test machine : GPU - Tesla P100
+    - load data timing : 
         - data loaded from their own mounted storage (no info)
-        - low memory mode : ~6s/8000LC 
-        - large memory mode : 1min/80000LC
-    - epoch : 
+        - low memory mode : 6.2s / 8000LC 
+        - large memory mode : 75s / 80000LC
+    - epoch timing : 
         - low memory mode : 140s / epoch
-        - large memory mode :
-
-On Nefertem, Thanatos, DELL are more aproximate because I can not certified that no other user program step on my run!
+        - large memory mode : 170s / epoch
+        
+        
