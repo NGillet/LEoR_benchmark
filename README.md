@@ -13,28 +13,29 @@ The code as been runing on :
 
 - Nefertem : CPU 
     - load data time : 
-            - data loaded from Amphora
-            - low memory mode : 
-            - large memory mode : 
+        - data loaded from Amphora
+        - low memory mode : ...
+        - large memory mode : 18min / 80000LC
     - epoch : 
-            - low memory mode : 
-            - large memory mode : 
+            - low memory mode : ...
+            - large memory mode : ...
 
 - Thanatos : GPU - Titan V
     - load data time : 
-            - data loaded from the local hardrive
-            - low memory mode : ~42s/8000LC 
-    - epoch : 645s / epoch
+        - data loaded from the local hardrive
+        - low memory mode : ~42s/8000LC 
+    - epoch : 
+        - low memory mode : 645s / epoch
     
 - PizDaint : GPU - Tesla P100 : 720s / epoch
 
 - DELL test machine : GPU - Tesla P100 : 140s / epoch
     - load data time : 
-            - data loaded from their own mounted storage (no info)
-            - low memory mode : ~6s/8000LC 
-            - large memory mode : 1min/80000LC
+        - data loaded from their own mounted storage (no info)
+        - low memory mode : ~6s/8000LC 
+        - large memory mode : 1min/80000LC
     - epoch : 
-            - low memory mode : 140s / epoch
-            - large memory mode :
+        - low memory mode : 140s / epoch
+        - large memory mode :
 
 On Nefertem, Thanatos, DELL are more aproximate because I can not certified that no other user program step on my run!
