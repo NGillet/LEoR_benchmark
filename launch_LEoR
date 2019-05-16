@@ -1,0 +1,12 @@
+#!/bin/bash -l
+
+#SBATCH --job-name="LEoR"
+#SBATCH --time=00:01:00
+#SBATCH	--nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --constraint=gpu
+#SBATCH --output=run_log_save/LEoR.o
+#SBATCH --error=run_log_save/LEoR.e
+
+srun python CNN_lightcone_2D_dataGenerator.py
