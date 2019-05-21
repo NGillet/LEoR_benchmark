@@ -22,7 +22,7 @@ The code as been runing on :
     - Total epoch timing : 
         - low memory mode : ...
         - large memory mode : 90min / epoch
-    - Computation timing : 70min / epoch
+    - **Computation timing : 70min / epoch**
 
 - **Thanatos** : GPU - Titan V
     - load data timing : 
@@ -30,15 +30,15 @@ The code as been runing on :
         - low memory mode : 42s / 8000LC (1/10)
     - Total epoch timing : 
         - low memory mode : 645s / epoch
-    - Computation timing : 225s / epoch
+    - **Computation timing : 225s / epoch**
     
 - **PizDaint** : GPU - Tesla P100
     - load data timing : 
         - data loaded from the SCRATCH repo
-        - low memory mode : ... (1/10) (I do not remember...)
+        - low memory mode : ~50s (1/10) (THIS IS A CRUDE REMENBER...)
     - epoch timing : 
         - low memory mode : 720s / epoch
-    - Computation timing : ... / epoch
+    - **Computation timing : ~220 / epoch**
 
 - **DELL test machine** : GPU - Tesla P100
     - load data timing : 
@@ -48,8 +48,8 @@ The code as been runing on :
     - epoch timing : 
         - low memory mode : 140s / epoch
         - large memory mode : 170s / epoch
-    - Computation timing : 
-        - low memory mode : 80s / epoch
-        - large memory mode : 95s / epoch
+    - **Computation timing** : 
+        - **low memory mode : 80s / epoch**
+        - **large memory mode : 95s / epoch**
         
 All the timing are highly approximate (i) in most of the machine I do not crontrol that other job might have step in during the execution, especially for Nefertem and Thanatos. (ii) I just read the time, I stored some of the benchmark, but I did not extract and average the timing.
