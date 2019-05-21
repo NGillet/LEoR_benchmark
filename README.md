@@ -17,10 +17,8 @@ The code as been runing on :
 - **Nefertem** : CPU 
     - load data timing : 
         - data loaded from Amphora (through network? why is it so long)
-        - low memory mode : ...
         - large memory mode : 18min / 80000LC
     - Total epoch timing : 
-        - low memory mode : ...
         - large memory mode : 90min / epoch
     - **Computation timing : 70min / epoch**
 
@@ -51,5 +49,7 @@ The code as been runing on :
     - **Computation timing** : 
         - **low memory mode : 80s / epoch**
         - **large memory mode : 95s / epoch**
+
+- **WHY "large memory mode seems longer ?"**
         
 All the timing are highly approximate (i) in most of the machine I do not crontrol that other job might have step in during the execution, especially for Nefertem and Thanatos. (ii) I just read the time, I stored some of the benchmark, but I did not extract and average the timing.
