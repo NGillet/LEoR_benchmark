@@ -34,7 +34,7 @@ The code as been runing on :
     - load data timing : 
         - data loaded from the SCRATCH repo
         - low memory mode : 50s (1/10) (THIS IS A CRUDE REMEMBER.)
-    - epoch timing : 
+    - Total epoch timing : 
         - low memory mode : 720s / epoch
     - **Computation timing : ~220 / epoch**
 
@@ -43,7 +43,7 @@ The code as been runing on :
         - data loaded from their own mounted storage (no info)
         - low memory mode : 6.2s / 8000LC (1/10)
         - large memory mode : 75s / 80000LC (1)
-    - epoch timing : 
+    - Total epoch timing : 
         - low memory mode : 140s / epoch
         - large memory mode : 170s / epoch
     - **Computation timing** : 
