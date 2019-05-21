@@ -50,6 +50,10 @@ The code as been runing on :
         - **low memory mode : 80s / epoch**
         - **large memory mode : 95s / epoch**
 
-- **WHY "large memory mode seems longer ?"**
+- **SUMMARY:**
+    - WHY "large memory mode seems longer ?"
+    - Tesla V = P100 and V100 seems 2X faster !
+    - The loading time become more and more important as the computation time shink down: SSD storage seems important !
+
         
 All the timing are highly approximate (i) in most of the machine I do not crontrol that other job might have step in during the execution, especially for Nefertem and Thanatos. (ii) I just read the time, I stored some of the benchmark, but I did not extract and average the timing.
