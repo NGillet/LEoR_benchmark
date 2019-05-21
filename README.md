@@ -33,7 +33,7 @@ The code as been runing on :
 - **PizDaint** : GPU - Tesla P100
     - load data timing : 
         - data loaded from the SCRATCH repo
-        - low memory mode : ~50s (1/10) (THIS IS A CRUDE REMENBER...)
+        - low memory mode : 50s (1/10) (THIS IS A CRUDE REMEMBER.)
     - epoch timing : 
         - low memory mode : 720s / epoch
     - **Computation timing : ~220 / epoch**
