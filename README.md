@@ -38,7 +38,7 @@ The code as been runing on :
         - low memory mode : 720s / epoch
     - **Computation timing : ~220 / epoch**
 
-- **DELL test machine** : GPU - Tesla P100
+- **DELL test machine** : GPU - Tesla V100
     - load data timing : 
         - data loaded from their own mounted storage (no info)
         - low memory mode : 6.2s / 8000LC (1/10)
